@@ -15,7 +15,7 @@ public class Reto {
 	
 	public String toString (int [] arrayResult) {
 		String elements = "";
-		if (arrayResult.length > 0) {
+		if (arrayResult != null) {
 			for (int i = 0; i < arrayResult.length; i++) {
 				elements += arrayResult[i] + ",";
 			}
@@ -33,3 +33,4 @@ public class Reto {
 	}
 
 }
+
